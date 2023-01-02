@@ -1,0 +1,148 @@
+
+#start-button{
+    -fx-background-color: #2f2f5f;
+    -fx-border-color: #3e6688;
+    -fx-border-width: 4;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+    -fx-text-fill: white;
+-fx-font-family: "Droid Sans Mono Slashed";
+    -fx-font-size: 16;
+    -fx-cursor: hand;
+}
+.button{
+    -fx-background-color: #2f2f5f;
+    -fx-border-color: #3e6688;
+    -fx-border-width: 4;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+    -fx-text-fill: white;
+    -fx-font-family: "Droid Sans Mono Slashed";
+    -fx-font-size: 16;
+    -fx-cursor: hand;
+}
+#copy-label{
+    -fx-font-family: Serif;
+    -fx-font-size: 10;
+    -fx-text-fill: #bfbfbf;
+}
+#scores{
+    -fx-text-fill: #e3e3e3;
+    -fx-font-size: 17;
+   -fx-font-family: "Arial Rounded MT Bold";
+}
+#auto-label{
+    -fx-font-size: 12;
+    -fx-text-fill: #bfbfbf;
+}
+#store-titles{
+    -fx-font-size: 18;
+    -fx-font-family: "Droid Sans Mono Slashed";
+    -fx-text-fill: white;
+}
+#store-labell{
+    -fx-text-fill: white;
+    -fx-font-size: 13;
+    -fx-font-family: "Calibri";
+    -fx-background-color: none;
+    -fx-border-color: #ffffff;
+    -fx-border-width: 0.5;
+    -fx-background-radius: 17;
+    -fx-border-radius: 17;
+    -fx-cursor: none;
+}
+#store-item{
+    -fx-background-color: #2f2f5f;
+    -fx-border-color: #3e6688;
+    -fx-border-width: 4;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+    -fx-text-fill: white;
+    -fx-font-family: "Droid Sans Mono Slashed";
+    -fx-font-size: 13.2;
+    -fx-cursor: hand;
+}
+#store-item .label{
+    -fx-font-size: 12;
+}
+#choose-label{
+    -fx-text-fill: #c8c8c8;
+    -fx-font-size: 25;
+    -fx-font-family: "Bodoni MT Black";
+}
+#choose-labelp{
+    -fx-text-fill: #c8c8c8;
+    -fx-font-size: 22;
+    -fx-font-family: "Bodoni MT Black";
+}
+#start-button:hover{
+    -fx-background-color: #23589b;
+}
+#health-bar .bar {
+    -fx-background-color: #66c88c;
+}
+#power-bar .bar {
+    -fx-background-color: #cb6b27;
+}
+#power-button{
+    -fx-background-color: #2f3d5f;
+    -fx-border-color: #366472;
+    -fx-border-radius: 2;
+    -fx-border-width: 1;
+    -fx-cursor: hand;
+}
+#power-button2{
+    -fx-background-color: #2f3d5f;
+    -fx-border-color: #366472;
+    -fx-border-radius: 2;
+    -fx-border-width: 1;
+    -fx-cursor: hand;
+}
+#power-button:selected{
+    -fx-background-color: #23589b;
+    -fx-border-color: #366472;
+}
+#superPower-button{
+    -fx-background-color: #2f3d5f;
+    -fx-border-color: #366472;
+    -fx-background-radius: 60em;
+    -fx-min-width: 70px;
+    -fx-min-height: 70px;
+    -fx-max-width: 70px;
+    -fx-max-height: 70px;
+    -fx-cursor: hand;
+}
+#superPower-button2{
+    -fx-background-color: #2f3d5f;
+    -fx-border-color: #366472;
+    -fx-background-radius: 60em;
+    -fx-min-width: 70px;
+    -fx-min-height: 70px;
+    -fx-max-width: 70px;
+    -fx-max-height: 70px;
+    -fx-cursor: hand;
+}
+#superPower-button:selected{
+    -fx-background-color: #23589b;
+    -fx-border-color: #366472;
+}
+#item-help{
+    -fx-background-color: none;
+    -fx-border-color: none;
+    -fx-cursor: hand;
+}
+#SpiderMan{
+    -fx-cursor: hand;
+}
+#avenger{
+    -fx-cursor: hand;
+}
+#health-labels{
+    -fx-font-size: 11;
+    -fx-font-family: "Bodoni MT Black";
+    -fx-text-fill: #424243;
+}
+.dialog-pane .label {
+    -fx-font-family: "High Tower Text";
+    -fx-font-size: 18px;
+}
